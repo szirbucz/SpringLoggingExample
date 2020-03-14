@@ -33,7 +33,7 @@ How to try it?
 
 * Run the application (either from IDE or with java -jar).
 * Open one of the following URLs.
-    - <a href="http://localhost:8080/log/hello%20world" target="_blank">http://localhost:8080/log/your_message_comes_here</a>
-    - <a href="http://localhost:8080/error/hello%20world" target="_blank">http://localhost:8080/error/your_message_comes_here</a>
-    - <a href="http://localhost:8080/o1g/hello%20world" target="_blank">http://localhost:8080/o1g/your_message_comes_here</a>
+    - [http://localhost:8080/log/your_message_comes_here](http://localhost:8080/log/hello%20world)
+    - [http://localhost:8080/error/your_message_comes_here](http://localhost:8080/error/hello%20world)
+    - [http://localhost:8080/o1g/your_message_comes_here](http://localhost:8080/o1g/hello%20world)
 * Check the console.
