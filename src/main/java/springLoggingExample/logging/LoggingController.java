@@ -16,4 +16,8 @@ public class LoggingController {
 	public void info(@PathVariable("message") final String message) {
 		logger.info(message);
 	}
+
+	@GetMapping("/error/{message}")
+	public void error(@PathVariable("message") final String message) {
+	}
 }

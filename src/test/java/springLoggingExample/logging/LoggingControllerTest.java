@@ -26,5 +26,11 @@ class LoggingControllerTest {
 		loggingController.info(MESSAGE);
 		verify(logger).info(MESSAGE);
 	}
+	
+	@Test
+	void testErrorMessageIsLogged() {
+		loggingController.error(MESSAGE);
+		verify(logger).error(MESSAGE);
+	}
 
 }
